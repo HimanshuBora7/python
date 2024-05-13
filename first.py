@@ -1,0 +1,1 @@
+print("hello I fcked my lyf like no one else cld hv")
