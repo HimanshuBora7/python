@@ -1,0 +1,1 @@
+import this # this program aims to print the zen of python a kind of poem which explains about the programming in the python

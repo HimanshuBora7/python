@@ -4,6 +4,5 @@ number using recursion """
     if n==1 :
         return 1
     return n * factorial(n-1)
-
-print(factorial(3))
-print(help(factorial))
+x = int (input("enter the number of which u wanna find factorial: "))
+print(f"the factorial of the entered number {x} is {factorial(x)}")
