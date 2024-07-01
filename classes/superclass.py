@@ -28,8 +28,19 @@ class Electric_Car(Car):
    """represent aspect of a car ,specific to electric car """
    def __init__(self,make,model,year):
       super().__init__(make,model,year)    
+   #adding new attribute in the child class
+      self.battery_size = 75
+   
+   #this method prints the battery percentage of ev 
+   def battery_status(self):
+      """this method prints battery status """
+      print(f"current battery status = {self.battery_size}")   
+ 
+
+
 
 my_tesla = Electric_Car('tesla','model s ','2019')
 print(my_tesla.get_descriptive_name())   
-
+#calling battery status method to know battery status 
+my_tesla.battery_status()
 
