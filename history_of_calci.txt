@@ -1,0 +1,13 @@
+two numbers entered = 10,15
+operation performed =addition
+result = 25
+
+ two numbers entered = 25,5
+operation performed =subtraction
+result = 20
+
+ two numbers entered = 10,3
+operation performed =multiplication
+result = 30
+
+ 

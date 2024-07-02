@@ -1,0 +1,6 @@
+guest_name = lolwa
+time of visit = 2024-07-02 17:53:59.111479
+guest_name = acosta
+time of visit = 2024-07-02 17:54:07.103870
+guest_name = konichiwa
+time of visit = 2024-07-02 18:07:07.650957
