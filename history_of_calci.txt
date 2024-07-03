@@ -10,4 +10,16 @@ result = 20
 operation performed =multiplication
 result = 30
 
+ two numbers entered = 10,5
+operation performed =addition
+result = 15
+
+ two numbers entered = 5,2
+operation performed =addition
+result = 7
+
+ two numbers entered = 7,100
+operation performed =multiplication
+result = 700
+
  

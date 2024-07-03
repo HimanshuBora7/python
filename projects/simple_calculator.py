@@ -20,7 +20,10 @@ class Calculator:
         else:  
          p = self.x / self.y
          return p   
-        
+    def record_his(self,x,y,op,result):
+      self.file_name = "history_of_calci.txt"
+      with open("history_of_calci.txt","+a") as file_object:
+       file_object.write(f"two numbers entered = {x},{y}\noperation performed ={op}\nresult = {result}\n\n ")
 choice = True
 while (choice == True):
     x=input("enter the first number: ")
@@ -37,22 +40,24 @@ while (choice == True):
      if option == 1:
       op_to_be_perfored = 'addition'
       result = calci_01.add()
+      calci_01.record_his(x,y,op_to_be_perfored,result)
      elif option == 2:
       op_to_be_perfored = 'subtraction'
       result = calci_01.sub()
+      calci_01.record_his(x,y,op_to_be_perfored,result)
      elif option == 3:
       op_to_be_perfored = 'multiplication'
       result = calci_01.multi()
+      calci_01.record_his(x,y,op_to_be_perfored,result)
      elif option == 4:
       op_to_be_perfored = 'division'
       result = calci_01.div()
+      calci_01.record_his(x,y,op_to_be_perfored,result)
      else:
       op_to_be_perfored = 'no operation performed due to error'
       result = print("error")
      print(f" !! calculation done !!\n result is {result}")
-     file_name = "history_of_calci.txt"
-     with open("history_of_calci.txt","+a") as file_object:
-       file_object.write(f"two numbers entered = {x},{y}\noperation performed ={op_to_be_perfored}\nresult = {result}\n\n ")
+     
 
      print("enter 1> to continue calculation with this result 2> to start fresh calculation 3> exit ")
      choi = int(input("enter ur choice "))
