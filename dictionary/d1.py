@@ -8,4 +8,4 @@ user_0 ={
 
 for key , value in user_0.items():
     print(f"key = {key}")
-    print(f"value = {value}")
+    print(f"value = {value}") 
